@@ -113,7 +113,7 @@ export class API {
   }
 
   async songsInfo(): Promise<SongInfo[]> {
-    let tmp = await this.http.get('https://ghp.ci/https://raw.githubusercontent.com/ssmzhn/Phigros/refs/heads/main/Phigros.json')
+    let tmp = await this.http.get('https://ghfast.top/https://raw.githubusercontent.com/ssmzhn/Phigros/refs/heads/main/Phigros.json')
     tmp = JSON.parse(tmp)
     tmp =  Object.keys(tmp).map(key => {
       return { songName: key, ...tmp[key] };
