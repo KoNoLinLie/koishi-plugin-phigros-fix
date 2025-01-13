@@ -10,7 +10,7 @@
     "url": "https://github.com/KoNoLinLie/koishi-plugin-phigros-fix"
   },
   "homepage": "https://github.com/KoNoLinLie/koishi-plugin-phigros-fix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "author": {
